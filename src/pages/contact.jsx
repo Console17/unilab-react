@@ -69,30 +69,21 @@ const Contact = () => {
           </button>
           <div className="contact-more-info">
             <div className="contact-more-info-div">
-              <img
-                src="../../public/contact-page/contact-phone.svg"
-                alt="phone"
-              />
+              <img src="/contact-page/contact-phone.svg" alt="phone" />
               <div className="contact-info">
                 <h4>PHONE</h4>
                 <p>111 111 111</p>
               </div>
             </div>
             <div className="contact-more-info-div">
-              <img
-                src="../../public/contact-page/contact-fax.svg"
-                alt="phone"
-              />
+              <img src="/contact-page/contact-fax.svg" alt="phone" />
               <div className="contact-info">
                 <h4>FAX</h4>
                 <p>111 111 111</p>
               </div>
             </div>
             <div className="contact-more-info-div">
-              <img
-                src="../../public/contact-page/contact-email.svg"
-                alt="phone"
-              />
+              <img src="/contact-page/contact-email.svg" alt="phone" />
               <div className="contact-info">
                 <h4>EMAIL</h4>
                 <p>info@gmail.com</p>
@@ -101,7 +92,7 @@ const Contact = () => {
           </div>
         </form>
         <div className="contact-map">
-          <img src="../../public/contact-page/contact-map.png" alt="map" />
+          <img src="/contact-page/contact-map.png" alt="map" />
         </div>
       </section>
       <Footer />

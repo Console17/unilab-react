@@ -23,7 +23,7 @@ const pagination = ({ dogsPerPage, totalDogs, paginate, currentPage }) => {
   return (
     <div className="pagination-wrapper">
       <img
-        src="../../../public/category-page-photos/Arrow_Right_SM.svg"
+        src="/category-page-photos/Arrow_Right_SM.svg"
         alt="pagination arrow"
         onClick={handlePrevious}
       />
@@ -46,7 +46,7 @@ const pagination = ({ dogsPerPage, totalDogs, paginate, currentPage }) => {
         ))}
       </ul>
       <img
-        src="../../../public/category-page-photos/Arrow_Right_SM.svg"
+        src="/category-page-photos/Arrow_Right_SM.svg"
         alt="pagination arrow"
         onClick={handleNext}
       />

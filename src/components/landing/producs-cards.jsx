@@ -45,7 +45,7 @@ const ProductsCards = ({
         <p className="product-price">{price}</p>
         {free && (
           <div className="product-free">
-            <img src="../../../public/gift-box.svg" alt="gift-box" />
+            <img src="..//gift-box.svg" alt="gift-box" />
             <p className="dot-symbol">&#128900;</p>
             <p>{free}</p>
           </div>

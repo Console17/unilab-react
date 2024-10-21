@@ -39,7 +39,7 @@ function Header() {
   const [isUserDropdownVisible, setUserDropdownVisible] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState({
     name: "USA",
-    flag: "../../public/usa-flag.svg",
+    flag: "/usa-flag.svg",
   });
 
   const toggleDropdown = () => {
@@ -71,7 +71,7 @@ function Header() {
       <header className="desktop-header">
         <div className="header-left-section">
           <Link to="/home">
-            <img src="../../public/logo.svg" alt="logo" />{" "}
+            <img src="/logo.svg" alt="logo" />{" "}
           </Link>
           <nav className="Desktop-nav">
             <ul>
@@ -102,11 +102,11 @@ function Header() {
             {isUserDropdownVisible && (
               <div className="user-dropdown">
                 <div className="user-dropdown-option">
-                  <img src="../../public/user-logo.svg" alt="user-logo" />
+                  <img src="/user-logo.svg" alt="user-logo" />
                   <p>Profile</p>
                 </div>
                 <div className="user-dropdown-option " onClick={handleLogout}>
-                  <img src="../../public/log-out.svg" alt="log-out" />
+                  <img src="/log-out.svg" alt="log-out" />
                   <p>Log out</p>
                 </div>
               </div>
@@ -119,18 +119,16 @@ function Header() {
               className="country-flag"
             />
             <p>{selectedLanguage.name}</p>
-            <img src="../../public/arrow-icon.svg" alt="arrow" />
+            <img src="/arrow-icon.svg" alt="arrow" />
 
             {isDropdownVisible && (
               <div className="language-dropdown">
                 <div
                   className="language-option"
-                  onClick={() =>
-                    handleLanguageSelect("USA", "../../public/usa-flag.svg")
-                  }
+                  onClick={() => handleLanguageSelect("USA", "/usa-flag.svg")}
                 >
                   <img
-                    src="../../public/usa-flag.svg"
+                    src="/usa-flag.svg"
                     alt="flag"
                     className="country-flag"
                   />
@@ -139,11 +137,11 @@ function Header() {
                 <div
                   className="language-option"
                   onClick={() =>
-                    handleLanguageSelect("GE", "../../public/georgia-flag.svg")
+                    handleLanguageSelect("GE", "/georgia-flag.svg")
                   }
                 >
                   <img
-                    src="../../public/georgia-flag.svg"
+                    src="/georgia-flag.svg"
                     alt="flag"
                     className="country-flag"
                   />
@@ -158,10 +156,10 @@ function Header() {
       <header className="mobile-header">
         <div className="mobile-header-intro">
           <Link to="/home">
-            <img src="../../public/logo.svg" alt="logo" />
+            <img src="/logo.svg" alt="logo" />
           </Link>
           <img
-            src="../../public/Hamburger-icon.svg"
+            src="/Hamburger-icon.svg"
             alt="Hamburger-icon"
             onClick={toggleMobileNav}
           />
@@ -170,7 +168,7 @@ function Header() {
           <div className="mobile-nav-overlay"></div>
           <div className="mobile-nav-wrapper">
             <img
-              src="../../public/close-icon.svg"
+              src="/close-icon.svg"
               alt="close-icon"
               className="nav-close-icon"
               onClick={toggleCloseClick}
@@ -202,14 +200,14 @@ function Header() {
                 {isUserDropdownVisible && (
                   <div className="user-dropdown">
                     <div className="user-dropdown-option">
-                      <img src="../../public/user-logo.svg" alt="user-logo" />
+                      <img src="/user-logo.svg" alt="user-logo" />
                       <p>Profile</p>
                     </div>
                     <div
                       className="user-dropdown-option "
                       onClick={handleLogout}
                     >
-                      <img src="../../public/log-out.svg" alt="log-out" />
+                      <img src="/log-out.svg" alt="log-out" />
                       <p>Log out</p>
                     </div>
                   </div>
@@ -222,18 +220,18 @@ function Header() {
                   className="country-flag"
                 />
                 <p>{selectedLanguage.name}</p>
-                <img src="../../public/arrow-icon.svg" alt="arrow" />
+                <img src="/arrow-icon.svg" alt="arrow" />
 
                 {isDropdownVisible && (
                   <div className="language-dropdown">
                     <div
                       className="language-option"
                       onClick={() =>
-                        handleLanguageSelect("USA", "../../public/usa-flag.svg")
+                        handleLanguageSelect("USA", "/usa-flag.svg")
                       }
                     >
                       <img
-                        src="../../public/usa-flag.svg"
+                        src="/usa-flag.svg"
                         alt="flag"
                         className="country-flag"
                       />
@@ -242,14 +240,11 @@ function Header() {
                     <div
                       className="language-option"
                       onClick={() =>
-                        handleLanguageSelect(
-                          "GE",
-                          "../../public/georgia-flag.svg"
-                        )
+                        handleLanguageSelect("GE", "/georgia-flag.svg")
                       }
                     >
                       <img
-                        src="../../public/georgia-flag.svg"
+                        src="/georgia-flag.svg"
                         alt="flag"
                         className="country-flag"
                       />
@@ -258,11 +253,7 @@ function Header() {
                   </div>
                 )}
               </div>
-              <img
-                src="../../public/logo.svg"
-                alt="logo"
-                className="mobile-nav-logo"
-              />
+              <img src="/logo.svg" alt="logo" className="mobile-nav-logo" />
             </div>
           </div>
         </nav>

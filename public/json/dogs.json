@@ -1,6 +1,6 @@
 [
   {
-    "img": "../../public/dogs/image 1.png",
+    "img": "/dogs/image 1.png",
     "name": "MO231 - Pomeranian White",
     "gene": "Male",
     "age": "02 months",
@@ -17,7 +17,7 @@
     "additional_information": "Healthy and playful. Great companion."
   },
   {
-    "img": "../../public/dogs/image 2.png",
+    "img": "/dogs/image 2.png",
     "name": "MO502 - Poodle Tiny Yellow",
     "gene": "Female",
     "age": "02 months",
@@ -34,7 +34,7 @@
     "additional_information": "Friendly and sociable. Perfect for families."
   },
   {
-    "img": "../../public/dogs/image 3.png",
+    "img": "/dogs/image 3.png",
     "name": "MO102 - Poodle Tiny Sepia",
     "gene": "Male",
     "age": "02 months",
@@ -51,7 +51,7 @@
     "additional_information": "Playful and intelligent. Trained for basic commands."
   },
   {
-    "img": "../../public/dogs/image 4.png",
+    "img": "/dogs/image 4.png",
     "name": "MO512 - Alaskan Malamute Grey",
     "gene": "Male",
     "age": "02 months",
@@ -68,7 +68,7 @@
     "additional_information": "Strong and loyal. Needs plenty of exercise."
   },
   {
-    "img": "../../public/dogs/image 5.png",
+    "img": "/dogs/image 5.png",
     "name": "MO231 - Pembroke Corgi Cream",
     "gene": "Male",
     "age": "02 months",
@@ -85,7 +85,7 @@
     "additional_information": "Playful and affectionate. Great with kids."
   },
   {
-    "img": "../../public/dogs/image 6.png",
+    "img": "/dogs/image 6.png",
     "name": "MO502 - Pembroke Corgi Tricolor",
     "gene": "Female",
     "age": "02 months",
@@ -102,7 +102,7 @@
     "additional_information": "Loyal and energetic. Loves outdoor activities."
   },
   {
-    "img": "../../public/dogs/image 7.png",
+    "img": "/dogs/image 7.png",
     "name": "MO231 - Pomeranian White",
     "gene": "Female",
     "age": "02 months",
@@ -119,7 +119,7 @@
     "additional_information": "Very affectionate. Ideal for apartment living."
   },
   {
-    "img": "../../public/dogs/image 8.png",
+    "img": "/dogs/image 8.png",
     "name": "MO512 - Poodle Tiny Dairy Cow",
     "gene": "Male",
     "age": "02 months",
@@ -136,7 +136,7 @@
     "additional_information": "Unique coloring. Great with families and kids."
   },
   {
-    "img": "../../public/dogs/image 1.png",
+    "img": "/dogs/image 1.png",
     "name": "MO231 - Pomeranian White",
     "gene": "Male",
     "age": "02 months",
@@ -153,7 +153,7 @@
     "additional_information": "Good temperament. Easy to train."
   },
   {
-    "img": "../../public/dogs/image 2.png",
+    "img": "/dogs/image 2.png",
     "name": "MO502 - Poodle Tiny Yellow",
     "gene": "Female",
     "age": "02 months",
@@ -170,7 +170,7 @@
     "additional_information": "Sweet nature. Loves to cuddle."
   },
   {
-    "img": "../../public/dogs/image 3.png",
+    "img": "/dogs/image 3.png",
     "name": "MO102 - Poodle Tiny Sepia",
     "gene": "Male",
     "age": "02 months",
@@ -187,7 +187,7 @@
     "additional_information": "Smart and alert. Great watchdog."
   },
   {
-    "img": "../../public/dogs/image 4.png",
+    "img": "/dogs/image 4.png",
     "name": "MO512 - Alaskan Malamute Grey",
     "gene": "Male",
     "age": "02 months",
@@ -204,7 +204,7 @@
     "additional_information": "Very strong. Needs experienced owner."
   },
   {
-    "img": "../../public/dogs/image 5.png",
+    "img": "/dogs/image 5.png",
     "name": "MO231 - Pembroke Corgi Cream",
     "gene": "Male",
     "age": "02 months",
@@ -221,7 +221,7 @@
     "additional_information": "Excellent family dog. Very playful."
   },
   {
-    "img": "../../public/dogs/image 6.png",
+    "img": "/dogs/image 6.png",
     "name": "MO502 - Pembroke Corgi Tricolor",
     "gene": "Female",
     "age": "02 months",
@@ -239,7 +239,7 @@
     "additional_information": "Excellent family dog. Very playful."
   },
   {
-    "img": "../../public/dogs/image 7.png",
+    "img": "/dogs/image 7.png",
     "name": "MO231 - Pomeranian White",
     "gene": "Female",
     "age": "02 months",
@@ -256,7 +256,7 @@
     "additional_information": "Good temperament. Easy to train."
   },
   {
-    "img": "../../public/dogs/image 8.png",
+    "img": "/dogs/image 8.png",
     "name": "MO512 - Poodle Tiny Dairy Cow",
     "gene": "Male",
     "age": "02 months",
@@ -273,7 +273,7 @@
     "additional_information": "Friendly and playful. Ideal for families."
   },
   {
-    "img": "../../public/dogs/image 1.png",
+    "img": "/dogs/image 1.png",
     "name": "MO701 - Beagle Brown",
     "gene": "Male",
     "age": "03 months",
@@ -290,7 +290,7 @@
     "additional_information": "Loves to play and very affectionate."
   },
   {
-    "img": "../../public/dogs/image 2.png",
+    "img": "/dogs/image 2.png",
     "name": "MO802 - Shih Tzu Black",
     "gene": "Female",
     "age": "04 months",
@@ -307,7 +307,7 @@
     "additional_information": "Very gentle and good with children."
   },
   {
-    "img": "../../public/dogs/image 3.png",
+    "img": "/dogs/image 3.png",
     "name": "MO903 - Bulldog White",
     "gene": "Male",
     "age": "05 months",
@@ -324,7 +324,7 @@
     "additional_information": "Strong and protective. Great family dog."
   },
   {
-    "img": "../../public/dogs/image 4.png",
+    "img": "/dogs/image 4.png",
     "name": "MO1001 - Dachshund Tan",
     "gene": "Female",
     "age": "03 months",
@@ -341,7 +341,7 @@
     "additional_information": "Playful and curious. Loves to explore."
   },
   {
-    "img": "../../public/dogs/image 5.png",
+    "img": "/dogs/image 5.png",
     "name": "MO1102 - Rottweiler Black",
     "gene": "Male",
     "age": "06 months",
@@ -358,7 +358,7 @@
     "additional_information": "Loyal and confident. Needs training."
   },
   {
-    "img": "../../public/dogs/image 6.png",
+    "img": "/dogs/image 6.png",
     "name": "MO1203 - Chihuahua White",
     "gene": "Female",
     "age": "02 months",
@@ -375,7 +375,7 @@
     "additional_information": "Tiny and brave. Very affectionate."
   },
   {
-    "img": "../../public/dogs/image 7.png",
+    "img": "/dogs/image 7.png",
     "name": "MO1304 - Boxer Fawn",
     "gene": "Male",
     "age": "07 months",
@@ -392,7 +392,7 @@
     "additional_information": "Energetic and loyal. Great for active families."
   },
   {
-    "img": "../../public/dogs/image 8.png",
+    "img": "/dogs/image 8.png",
     "name": "MO1405 - Yorkshire Terrier Gold",
     "gene": "Female",
     "age": "01 month",
@@ -409,7 +409,7 @@
     "additional_information": "Charming and playful. Perfect for apartments."
   },
   {
-    "img": "../../public/dogs/image 1.png",
+    "img": "/dogs/image 1.png",
     "name": "MO1506 - Great Dane Blue",
     "gene": "Male",
     "age": "08 months",
@@ -426,7 +426,7 @@
     "additional_information": "Gentle giant. Great with kids."
   },
   {
-    "img": "../../public/dogs/image 2.png",
+    "img": "/dogs/image 2.png",
     "name": "MO1607 - Cocker Spaniel Black",
     "gene": "Female",
     "age": "04 months",
@@ -443,7 +443,7 @@
     "additional_information": "Affectionate and friendly. Good with children."
   },
   {
-    "img": "../../public/dogs/image 3.png",
+    "img": "/dogs/image 3.png",
     "name": "MO1708 - Bulldog Brindle",
     "gene": "Male",
     "age": "05 months",
@@ -460,7 +460,7 @@
     "additional_information": "Loyal and friendly. Great guard dog."
   },
   {
-    "img": "../../public/dogs/image 4.png",
+    "img": "/dogs/image 4.png",
     "name": "MO1809 - Siberian Husky Grey",
     "gene": "Female",
     "age": "03 months",
@@ -477,7 +477,7 @@
     "additional_information": "Very energetic. Needs daily exercise."
   },
   {
-    "img": "../../public/dogs/image 5.png",
+    "img": "/dogs/image 5.png",
     "name": "MO1900 - Maltese White",
     "gene": "Male",
     "age": "02 months",
@@ -494,7 +494,7 @@
     "additional_information": "Playful and loving. Great companion."
   },
   {
-    "img": "../../public/dogs/image 6.png",
+    "img": "/dogs/image 6.png",
     "name": "MO2001 - Pitbull Black",
     "gene": "Female",
     "age": "04 months",

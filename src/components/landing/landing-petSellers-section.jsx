@@ -9,7 +9,7 @@ const LandingPetSerlersSection = ({ sellers }) => {
           </div>
           <button className="pet-intro-btn ">
             View all our sellers
-            <img src="../../public/arrow-icon.svg" alt="play-circle" />
+            <img src="/arrow-icon.svg" alt="play-circle" />
           </button>
         </div>
         <div className="pet-sellers-logos">
@@ -28,7 +28,7 @@ const LandingPetSerlersSection = ({ sellers }) => {
           <div className="adoption-info">
             <div className="adoption-head">
               <h2>Adoption</h2>
-              <img src="../../../public/paw-icon.svg" alt="paw-icon" />
+              <img src="..//paw-icon.svg" alt="paw-icon" />
             </div>
             <h3>We need help. so do they.</h3>
             <p>
@@ -39,13 +39,13 @@ const LandingPetSerlersSection = ({ sellers }) => {
               <button className="btn btn-first">Explore Now</button>
               <button className="btn btn-second">
                 View Intro
-                <img src="../../public/play-circle.svg" alt="play-circle" />
+                <img src="/play-circle.svg" alt="play-circle" />
               </button>
             </div>
           </div>
           <div className="adoption-img">
             <img
-              src="../../../public/adoption-photo.png"
+              src="..//adoption-photo.png"
               alt="moreFriend-image"
             />
           </div>

@@ -23,8 +23,8 @@
   }
 
   .category-wrapper {
-    background: url(../../../public/category-page-photos/category-banner.png)
-      no-repeat center center;
+    background: url(/category-page-photos/category-banner.png) no-repeat center
+      center;
     background-size: cover;
     border-radius: 20px;
     padding: 0 60px 0 51px;
@@ -33,7 +33,7 @@
     justify-content: space-between;
 
     @include responsive(responsive-change) {
-      background: url(../../../public/category-page-photos/category-mobile-banner.png)
+      background: url(/category-page-photos/category-mobile-banner.png)
         no-repeat center center;
       background-size: cover;
       flex-direction: column;

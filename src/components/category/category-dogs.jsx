@@ -30,8 +30,7 @@ const categoryDogs = ({ dogs }) => {
           </div>
           <div className="dogs-dropdown">
             <button className="dropdown-button" onClick={toggleDropdown}>
-              Sort by: {selectedOption}{" "}
-              <img src="../../../public/arrow-icon.svg" alt="" />
+              Sort by: {selectedOption} <img src="/arrow-icon.svg" alt="" />
             </button>
             {isOpen && (
               <ul className="dropdown-menu">

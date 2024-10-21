@@ -24,15 +24,15 @@ function Footer() {
           </li>
         </ul>
         <div className="footer-socials">
-          <img src="../../public/socials/facebook.svg" alt="facebook" />
-          <img src="../../public/socials/instagram.svg" alt="instagram" />
-          <img src="../../public/socials/twitter.svg" alt="twitter" />
-          <img src="../../public/socials/youtube.svg" alt="youtube" />
+          <img src="/socials/facebook.svg" alt="facebook" />
+          <img src="/socials/instagram.svg" alt="instagram" />
+          <img src="/socials/twitter.svg" alt="twitter" />
+          <img src="/socials/youtube.svg" alt="youtube" />
         </div>
       </div>
       <div className="footer-additional-info">
         <p className="copyright">© 2022 Monito. All rights reserved.</p>
-        <img src="../../public/logo.svg" alt="logo" />
+        <img src="/logo.svg" alt="logo" />
         <div className="footer-privacy">
           <p>Terms of Service </p>
           <p>Privacy Policy</p>

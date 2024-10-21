@@ -16,7 +16,7 @@ const LandingDogsSection = ({ dogs }) => {
             onClick={() => navigate("/category")}
           >
             View more
-            <img src="../../public/arrow-icon.svg" alt="play-circle" />
+            <img src="/arrow-icon.svg" alt="play-circle" />
           </button>
         </div>
         <div className="dogs-cards-wrapper products-cards-wrapper">
@@ -37,7 +37,7 @@ const LandingDogsSection = ({ dogs }) => {
           onClick={() => navigate("/category")}
         >
           View more
-          <img src="../../public/arrow-icon.svg" alt="play-circle" />
+          <img src="/arrow-icon.svg" alt="play-circle" />
         </button>
       </section>
     </>

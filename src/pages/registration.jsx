@@ -66,7 +66,7 @@ const Registration = () => {
         return (
           <>
             <div className="google-div">
-              <img src="../../public/google-icon.svg" alt="google-icon" />
+              <img src="/google-icon.svg" alt="google-icon" />
               <p>Continue with Google</p>
             </div>
             <div className="line-breaker">

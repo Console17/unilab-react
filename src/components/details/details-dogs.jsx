@@ -23,38 +23,38 @@ const detailsDogs = ({ dog }) => {
       <section className="dog-details-section">
         <div className="dog-img">
           <img
-            src="../../../public/details-page/arrow-left-details.svg"
+            src="/details-page/arrow-left-details.svg"
             className="arrow-left-img"
             onClick={handleNavigate}
           />
           <img src={dog.img} alt={dog.name} className="dog-img" />
           <div className="dog-guarantee invisible">
             <p>
-              <img src="../../../public/details-page/guarantee 1.svg" />
+              <img src="/details-page/guarantee 1.svg" />
               100% health guarantee for pets
             </p>
             <p>
-              <img src="../../../public/details-page/guarantee 2.svg" />
+              <img src="/details-page/guarantee 2.svg" />
               100% guarantee of pet identification
             </p>
           </div>
           <div className="dog-share">
-            <img src="../../../public/details-page/share-icon.svg" />
+            <img src="/details-page/share-icon.svg" />
             <p>Share:</p>
-            <img src="../../../public/details-page/Facebook - Negative.svg" />
-            <img src="../../../public/details-page/Twitter - Negative.svg" />
-            <img src="../../../public/details-page/YouTube - Negative.svg" />
-            <img src="../../../public/details-page/Instagram - Negative.svg" />
+            <img src="/details-page/Facebook - Negative.svg" />
+            <img src="/details-page/Twitter - Negative.svg" />
+            <img src="/details-page/YouTube - Negative.svg" />
+            <img src="/details-page/Instagram - Negative.svg" />
           </div>
         </div>
         <div className="dog-data">
           <div className="current-page">
             <p>Home</p>
-            <img src="../../../public/details-page/arrow-right-details.svg" />
+            <img src="/details-page/arrow-right-details.svg" />
             <p>Dog</p>
-            <img src="../../../public/details-page/arrow-right-details.svg" />
+            <img src="/details-page/arrow-right-details.svg" />
             <p>Large Dog</p>
-            <img src="../../../public/details-page/arrow-right-details.svg" />
+            <img src="/details-page/arrow-right-details.svg" />
             <p>{dog.name}</p>
           </div>
           <div className="dog-main-info">
@@ -65,7 +65,7 @@ const detailsDogs = ({ dog }) => {
           <div className="dog-contact">
             <button className="first-btn">Contact us</button>
             <button className="second-btn" onClick={userConsole}>
-              <img src="../../../public/details-page/chat-icon.svg" />
+              <img src="/details-page/chat-icon.svg" />
               chat with Monito
             </button>
           </div>
@@ -73,7 +73,7 @@ const detailsDogs = ({ dog }) => {
             <div className="secondary-information-div">
               <h2>Information</h2>
               <div className="infro-wrapper">
-                <img src="../../../public/details-page/share-icon.svg" />
+                <img src="/details-page/share-icon.svg" />
                 <p>Share:</p>
               </div>
             </div>
@@ -152,11 +152,11 @@ const detailsDogs = ({ dog }) => {
           </div>
           <div className="dog-guarantee">
             <p>
-              <img src="../../../public/details-page/guarantee 1.svg" />
+              <img src="/details-page/guarantee 1.svg" />
               100% health guarantee for pets
             </p>
             <p>
-              <img src="../../../public/details-page/guarantee 2.svg" />
+              <img src="/details-page/guarantee 2.svg" />
               100% guarantee of pet identification
             </p>
           </div>

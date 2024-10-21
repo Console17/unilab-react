@@ -1,6 +1,6 @@
 [
   {
-    "img": "../../public/other-products/product 1.png",
+    "img": "/other-products/product 1.png",
     "name": "Reflex Plus Adult Cat Food Salmon",
     "type": "Dog Food",
     "size": "385gm",
@@ -9,7 +9,7 @@
   },
 
   {
-    "img": "../../public/other-products/product 2.png",
+    "img": "/other-products/product 2.png",
     "name": "Reflex Plus Adult Cat Food Salmon",
     "type": "Cat Food",
     "size": "1.5kg",
@@ -18,21 +18,21 @@
   },
 
   {
-    "img": "../../public/other-products/product 3.png",
+    "img": "/other-products/product 3.png",
     "name": "Cat scratching ball toy kitten sisal rope ball",
     "type": "Toy",
     "price": "1.100.000 VND",
     "free": "Free Cat Food"
   },
   {
-    "img": "../../public/other-products/product 4.png",
+    "img": "/other-products/product 4.png",
     "name": "Cute Pet Cat Warm Nest",
     "type": "Toy",
     "price": "410.000 VND",
     "free": "Free Cat Food"
   },
   {
-    "img": "../../public/other-products/product 5.png",
+    "img": "/other-products/product 5.png",
     "name": "NaturVet Dogs - Omega-Gold Plus Salmon Oil",
     "type": "Dog Food",
     "size": "385gm",
@@ -40,7 +40,7 @@
     "free": "Free Toy & Free Shaker"
   },
   {
-    "img": "../../public/other-products/product 6.png",
+    "img": "/other-products/product 6.png",
     "name": "Costumes Fashion Pet Clother Cowboy Rider",
     "type": "Costume",
     "size": "1.5kg",
@@ -48,14 +48,14 @@
     "free": "Free Toy & Free Shaker"
   },
   {
-    "img": "../../public/other-products/product 7.png",
+    "img": "/other-products/product 7.png",
     "name": "Costumes Chicken Drumsti ck Headband",
     "type": "Costume",
     "price": "400.000 VND",
     "free": "Free Cat Food"
   },
   {
-    "img": "../../public/other-products/product 8.png",
+    "img": "/other-products/product 8.png",
     "name": "Plush Pet Toy",
     "type": "Toy",
     "price": "250.000 VND",

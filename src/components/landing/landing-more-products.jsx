@@ -11,7 +11,7 @@ const LandingMoreProducts = ({ products }) => {
           </div>
           <button className="products-intro-btn btn">
             View more
-            <img src="../../public/arrow-icon.svg" alt="play-circle" />
+            <img src="/arrow-icon.svg" alt="play-circle" />
           </button>
         </div>
         <div className="products-cards-wrapper">

@@ -422,14 +422,14 @@ button {
 
 .landing-first-section {
   width: 100%;
-  background: url("../../../public/hero-banner.png") no-repeat center center;
+  background: url("/hero-banner.png") no-repeat center center;
   background-size: cover;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }
 @media only screen and (max-width: 950px) {
   .landing-first-section {
-    background: url("../../../public/hero-banner-mobile.png") no-repeat center center;
+    background: url("/hero-banner-mobile.png") no-repeat center center;
     background-size: cover;
   }
 }
@@ -549,7 +549,7 @@ button {
   }
 }
 .moreFriends-section .moreFriends-wrapper {
-  background: url(../../../public/more-friend-img.png) no-repeat center center;
+  background: url(/more-friend-img.png) no-repeat center center;
   background-size: cover;
   border-radius: 20px;
   padding: 0 80px 0 40px;
@@ -558,7 +558,7 @@ button {
 }
 @media only screen and (max-width: 950px) {
   .moreFriends-section .moreFriends-wrapper {
-    background: url(../../../../public/friends-mobile-banner.png) no-repeat center center;
+    background: url(/friends-mobile-banner.png) no-repeat center center;
     background-size: cover;
     flex-direction: column;
   }
@@ -1259,7 +1259,7 @@ button {
   rotate: 270deg;
 }
 .category-banner .category-wrapper {
-  background: url(../../../public/category-page-photos/category-banner.png) no-repeat center center;
+  background: url(/category-page-photos/category-banner.png) no-repeat center center;
   background-size: cover;
   border-radius: 20px;
   padding: 0 60px 0 51px;
@@ -1269,7 +1269,7 @@ button {
 }
 @media only screen and (max-width: 950px) {
   .category-banner .category-wrapper {
-    background: url(../../../public/category-page-photos/category-mobile-banner.png) no-repeat center center;
+    background: url(/category-page-photos/category-mobile-banner.png) no-repeat center center;
     background-size: cover;
     flex-direction: column;
     padding: 0 16px;

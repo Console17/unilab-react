@@ -24,13 +24,13 @@ const landingKnowledgeSection = ({ knowledgeData }) => {
         </div>
         <div className="knowledge-pagination">
           <img
-            src="../../../public/arrow-icon.svg"
+            src="../arrow-icon.svg"
             alt="arrow-icon"
             className="arrow first-arrow"
             onClick={handlePrev}
           />
           <img
-            src="../../../public/arrow-icon.svg "
+            src=".//arrow-icon.svg "
             className="arrow second-arrow"
             alt="arrow-icon"
             onClick={handleNext}

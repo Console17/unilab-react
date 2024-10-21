@@ -1,13 +1,12 @@
 .landing-first-section {
   width: 100%;
-  background: url("../../../public/hero-banner.png") no-repeat center center;
+  background: url("/hero-banner.png") no-repeat center center;
   background-size: cover;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 
   @include responsive(responsive-change) {
-    background: url("../../../public/hero-banner-mobile.png") no-repeat center
-      center;
+    background: url("/hero-banner-mobile.png") no-repeat center center;
     background-size: cover;
   }
 

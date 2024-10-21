@@ -16,13 +16,13 @@ const LandingHeroSection = () => {
           <div className="hero-btns">
             <button className="btn btn-first">
               {t("btn1")}
-              <img src="../../public/play-circle.svg" alt="play-circle" />
+              <img src="/play-circle.svg" alt="play-circle" />
             </button>
             <button className="btn btn-second">{t("btn2")}</button>
           </div>
         </div>
         <div className="hero-img">
-          <img src="../../public/hero-image.png" alt="hero-img" />
+          <img src="/hero-image.png" alt="hero-img" />
         </div>
       </div>
     </section>

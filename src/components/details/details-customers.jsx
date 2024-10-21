@@ -32,31 +32,31 @@ const detailsCustomers = () => {
         }}
       >
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 1.png" />
+          <img src="/details-page/customers/customer 1.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 2.png" />
+          <img src="/details-page/customers/customer 2.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 3.png" />
+          <img src="/details-page/customers/customer 3.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 4.png" />
+          <img src="/details-page/customers/customer 4.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 1.png" />
+          <img src="/details-page/customers/customer 1.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 2.png" />
+          <img src="/details-page/customers/customer 2.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 3.png" />
+          <img src="/details-page/customers/customer 3.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 4.png" />
+          <img src="/details-page/customers/customer 4.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../../../public/details-page/customers/customer 1.png" />
+          <img src="/details-page/customers/customer 1.png" />
         </SwiperSlide>
       </Swiper>
     </section>

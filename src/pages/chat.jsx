@@ -92,7 +92,7 @@ const chat = () => {
         <div className="dog-chat">
           <div className="dog-chat-img">
             <img
-              src="../../../public/details-page/arrow-left-details.svg"
+              src="../details-page/arrow-left-details.svg"
               className="chat-arrow-left-img"
               onClick={handleNavigate}
             />
