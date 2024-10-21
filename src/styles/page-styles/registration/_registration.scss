@@ -1,0 +1,138 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 100px auto;
+  max-width: 320px;
+
+  .google-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 32px;
+    border: 1px solid $border-gray;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    p {
+      margin-left: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      color: $dark-blue;
+    }
+  }
+
+  .line-breaker {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    &::before,
+    &::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid $border-gray;
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 24px;
+      font-weight: 500;
+      color: $dark-blue;
+    }
+  }
+
+  .forgot-password-intro {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $dark-blue;
+    margin-bottom: 15px;
+  }
+
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+
+    label {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      color: $dark-blue;
+    }
+
+    input {
+      width: 100%;
+      height: 40px;
+      padding: 10px 15px;
+      border: 1px solid $border-gray;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      color: $dark-gray;
+    }
+
+    .error-p {
+      display: hidden;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 24px;
+      color: red;
+    }
+  }
+
+  .forgot-password {
+    width: 100%;
+    text-align: right;
+    margin: 0 0 24px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $dark-blue;
+    cursor: pointer;
+  }
+
+  .sign-up-text {
+    font-size: 12px;
+    margin: 0 0 24px;
+    font-weight: 400;
+    font-weight: 500;
+    line-height: 24px;
+    color: $dark-blue;
+  }
+
+  .form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: $dark-blue;
+    color: white;
+  }
+
+  .sign-up-p,
+  .sign-in-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    color: $dark-blue;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,275 @@
+.dog-details-section {
+  margin: 40px 130px 25px;
+  padding: 22px 80px 22px 20px;
+  border: 1px solid #ebeeef;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+
+  @include responsive(s_pc) {
+    margin: 40px 16px;
+  }
+
+  @include responsive(responsive-change) {
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dog-img {
+    width: 100%;
+    max-width: 590px;
+    border-radius: 20px;
+
+    @include responsive(responsive-change) {
+      max-width: 100%;
+      border-radius: 0;
+      margin-bottom: 30px;
+    }
+
+    .arrow-left-img {
+      display: none;
+
+      @include responsive(responsive-change) {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 10px;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .dog-share {
+      display: flex;
+      align-items: center;
+      margin-top: 18px;
+
+      @include responsive(responsive-change) {
+        display: none;
+      }
+
+      p {
+        margin: 0 10px 0 3px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: $dark-blue;
+      }
+      img {
+        margin-right: 7px;
+      }
+    }
+  }
+
+  .dog-data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+
+    @include responsive(responsive-change) {
+      padding: 0 16px;
+    }
+
+    .current-page {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: $light-gray;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+
+    .dog-main-info {
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin-bottom: 5px;
+
+        @include responsive(responsive-change) {
+          display: none;
+        }
+      }
+
+      h2 {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 700;
+        color: $dark-blue;
+      }
+    }
+
+    .dog-contact {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+
+      @include responsive(responsive-change) {
+        margin-bottom: 30px;
+      }
+
+      button {
+        height: 44px;
+        padding: 14px 28px 10px 24px;
+        border-radius: 57px;
+        margin-right: 18px;
+      }
+
+      .first-btn {
+        background-color: $dark-blue;
+        border: none;
+        color: white;
+        width: 100%;
+        max-width: 141px;
+      }
+
+      .second-btn {
+        background-color: transparent;
+        border: 2px solid $dark-blue;
+        color: $dark-blue;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        max-width: 215px;
+        font-size: 700;
+      }
+    }
+
+    .dog-secondary-info {
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 100%;
+
+      @include responsive(responsive-change) {
+        margin-left: 0;
+        margin-bottom: 25px;
+      }
+
+      .secondary-information-div {
+        display: none;
+
+        @include responsive(responsive-change) {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 10px;
+
+          h2 {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 700;
+          }
+
+          .infro-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            color: $dark-blue;
+          }
+        }
+      }
+
+      .dog-secondary-info-div {
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 10px;
+        border-bottom: 1px solid #ebeeef;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        @include responsive(responsive-change) {
+          padding-left: 5px;
+        }
+
+        .dog-secondary-info-wrapper {
+          width: 50%;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 500;
+          color: $light-gray;
+
+          @include responsive(responsive-change) {
+            width: 100%;
+          }
+
+          .label {
+            width: 50%;
+            text-align: left;
+          }
+
+          .value {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+.details-header {
+  .mobile-header {
+    display: none;
+  }
+}
+
+.dog-guarantee {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #fceed5;
+  gap: 27px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  margin-top: 15px;
+
+  @include responsive(responsive-change) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-bottom: 40px;
+
+    &.invisible {
+      display: none;
+    }
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: $dark-blue;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}

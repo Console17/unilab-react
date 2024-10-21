@@ -1,0 +1,136 @@
+.details-customers-section {
+  padding: 0 130px;
+  margin: 80px 0;
+
+  @include responsive(s_pc) {
+    padding: 0 16px;
+  }
+
+  @include responsive(responsive-change) {
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  .mySwiper {
+    position: relative;
+    padding-bottom: 50px;
+
+    img {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+}
+
+.more-dogs-section {
+  padding: 0 130px;
+  margin: 80px 0;
+  width: 100%;
+
+  @include responsive(s_pc) {
+    padding: 0 16px;
+  }
+
+  @include responsive(responsive-change) {
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: $dark-blue;
+  }
+
+  .more-dogs-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(280px, 400px));
+    justify-content: space-between;
+    gap: 28px;
+
+    @include responsive(l_pc) {
+      grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+
+    @include responsive(s_pc) {
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0px 4px 28px -2px #00000014;
+      padding: 0 8px;
+      cursor: pointer;
+
+      img {
+        padding: 8px 0;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 8px;
+        max-width: 250px;
+      }
+
+      .product-additional-info {
+        display: flex;
+        margin: 8px 8px 10px;
+
+        @include responsive(phone) {
+          flex-direction: column;
+
+          .dot-symbol {
+            display: none;
+          }
+        }
+
+        .product-gene,
+        .product-age {
+          font-size: 14px;
+          font-weight: 500;
+          margin-right: 10px;
+          color: $light-gray;
+        }
+
+        .product-age,
+        .product-size {
+          margin-left: 10px;
+
+          @include responsive(phone) {
+            margin-left: 0;
+            margin-top: 5px;
+          }
+        }
+
+        .dynamic-gene,
+        .dynamic-age {
+          font-weight: bold;
+        }
+      }
+
+      .product-price {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 8px 20px;
+      }
+    }
+  }
+}

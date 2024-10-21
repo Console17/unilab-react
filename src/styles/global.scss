@@ -1,0 +1,16 @@
+@import "./utils/reset";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./component-styles/header";
+@import "./page-styles/landing/landing-hero";
+@import "./page-styles/landing/landing-main";
+@import "./page-styles/landing/landing-products";
+@import "./page-styles/landing/summer-event";
+@import "./page-styles/registration/registration.scss";
+@import "./page-styles/category-page/category-banner";
+@import "./page-styles/category-page/category-products";
+@import "./page-styles/contact-us/contact-us";
+@import "./page-styles/details-page/dogs-details";
+@import "./page-styles/details-page/details-main";
+@import "./page-styles/chat-page/chat-page";
+@import "./component-styles/footer";

@@ -1,0 +1,74 @@
+$l-pc: 1440px;
+$pc: 1260px;
+$s-pc: 1155px;
+$l-tablet: 1024px;
+$responsive-change: 950px;
+$m-tablet: 820px;
+$tablet: 720px;
+$phone: 414px;
+$tablet-max: $tablet - 1;
+$pc-max: $pc - 1;
+
+@mixin responsive($media) {
+  @if $media == l_pc {
+    @media only screen and (max-width: $l-pc) {
+      @content;
+    }
+  } @else if $media == pc {
+    @media only screen and (min-width: $pc) {
+      @content;
+    }
+  } @else if $media == s_pc {
+    @media only screen and (max-width: $s-pc) {
+      @content;
+    }
+  } @else if $media == l-tablet {
+    @media only screen and (max-width: $l-tablet) {
+      @content;
+    }
+  } @else if $media == responsive-change {
+    @media only screen and (max-width: $responsive-change) {
+      @content;
+    }
+  } @else if $media == m-tablet {
+    @media only screen and (max-width: $m-tablet) {
+      @content;
+    }
+  } @else if $media == tablet {
+    @media only screen and (max-width: $pc-max) {
+      @content;
+    }
+  } @else if $media == phone {
+    @media only screen and (max-width: $tablet-max) {
+      @content;
+    }
+  } @else if $media == small_phone {
+    @media only screen and (max-width: $phone) {
+      @content;
+    }
+  } @else if $media == smallest_phone {
+    @media only screen and (max-width: $s-phone) {
+      @content;
+    }
+  }
+}
+
+@mixin button-style($width, $margin-top: 15px) {
+  padding: 14px 28px 10px;
+  width: $width;
+  height: 48px;
+  border-radius: 57px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1.5px solid $dark-blue;
+  color: $dark-blue;
+  margin-top: $margin-top;
+
+  img {
+    margin-left: 10px;
+    rotate: 270deg;
+  }
+}

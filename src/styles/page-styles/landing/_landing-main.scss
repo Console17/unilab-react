@@ -1,0 +1,259 @@
+.moreFriends-section {
+  margin-top: 60px;
+  padding: 0 130px;
+
+  @include responsive(s_pc) {
+    padding: 0 16px;
+  }
+  .moreFriends-wrapper {
+    background: url(../../../public/more-friend-img.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 0 80px 0 40px;
+    display: flex;
+    justify-content: space-between;
+
+    @include responsive(responsive-change) {
+      background: url(../../../../public/friends-mobile-banner.png) no-repeat
+        center center;
+      background-size: cover;
+      flex-direction: column;
+
+      & > img {
+        order: 2;
+      }
+
+      & > .moreFriends-info {
+        order: 1;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+
+    .moreFriends-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 80px;
+
+      @include responsive(responsive-change) {
+        margin-top: 20px;
+        align-items: center;
+      }
+
+      h1,
+      h2 {
+        color: $dark-blue;
+      }
+
+      h1 {
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 68px;
+
+        @include responsive(responsive-change) {
+          font-size: 36px;
+          line-height: 54px;
+        }
+      }
+
+      h2 {
+        font-size: 36px;
+        margin-top: 15px;
+        font-weight: 700;
+
+        @include responsive(responsive-change) {
+          font-size: 24px;
+          line-height: 36px;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        max-width: 394px;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: right;
+        font-weight: 500;
+
+        @include responsive(responsive-change) {
+          text-align: center;
+        }
+      }
+
+      .moreFriends-btns {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+
+        .btn {
+          @include button-style(160px, 0);
+        }
+
+        .btn-first {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: transparent;
+          border: 1.5px solid $dark-blue;
+          color: $dark-blue;
+
+          img {
+            border: 1px solid $dark-blue;
+            border-radius: 50%;
+            margin-left: 10px;
+          }
+        }
+
+        .btn-second {
+          background-color: $dark-blue;
+          color: white;
+          border: none;
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+}
+
+.pet-sellers-section {
+  @include responsive(tablet) {
+    display: none;
+  }
+
+  padding: 0 130px;
+  margin-top: 100px;
+
+  .pet-sellers-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .pet-sellers-text {
+      display: flex;
+      flex-direction: row;
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        color: $dark-blue;
+        margin-left: 8px;
+      }
+    }
+
+    .pet-intro-btn {
+      @include button-style(195px);
+    }
+  }
+
+  .pet-sellers-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+  }
+}
+
+.adoption-section {
+  margin-top: 60px;
+  padding: 0 130px;
+
+  @include responsive(tablet) {
+    display: none;
+  }
+
+  .adoption-wrapper {
+    background: url(../../../public/adoption-banner.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 0 80px 0 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .adoption-info {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      margin-left: 60px;
+
+      .adoption-head {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-left: 20px;
+        }
+      }
+
+      h2,
+      h3 {
+        color: $dark-blue;
+      }
+
+      h2 {
+        font-size: 52px;
+        font-weight: 800;
+        line-height: 68px;
+      }
+
+      h3 {
+        font-size: 36px;
+        margin-top: 15px;
+        font-weight: 700;
+      }
+
+      p {
+        margin-top: 20px;
+        max-width: 200px;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+      }
+
+      .moreFriends-btns {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: flex;
+
+        .btn {
+          padding: 14px 28px 10px;
+          width: 160px;
+          height: 48px;
+          border-radius: 57px;
+          font-weight: 500;
+        }
+        .btn-first {
+          background-color: $dark-blue;
+          color: white;
+          border: none;
+        }
+
+        .btn-second {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: transparent;
+          border: 1.5px solid $dark-blue;
+          color: $dark-blue;
+          margin-left: 24px;
+
+          img {
+            border: 1px solid $dark-blue;
+            border-radius: 50%;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
