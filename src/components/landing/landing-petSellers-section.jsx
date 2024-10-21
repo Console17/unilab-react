@@ -28,7 +28,7 @@ const LandingPetSerlersSection = ({ sellers }) => {
           <div className="adoption-info">
             <div className="adoption-head">
               <h2>Adoption</h2>
-              <img src="..//paw-icon.svg" alt="paw-icon" />
+              <img src="/paw-icon.svg" alt="paw-icon" />
             </div>
             <h3>We need help. so do they.</h3>
             <p>
@@ -44,10 +44,7 @@ const LandingPetSerlersSection = ({ sellers }) => {
             </div>
           </div>
           <div className="adoption-img">
-            <img
-              src="..//adoption-photo.png"
-              alt="moreFriend-image"
-            />
+            <img src="/adoption-photo.png" alt="moreFriend-image" />
           </div>
         </div>
       </section>
